@@ -42,6 +42,6 @@ class TemplateGraphPlotly:
         plot_bgcolor=self.plot_bgcolor,
         margin=dict(t=100,l=50,r=50,b=50),
         legend=dict(xanchor="left",x=0,yanchor="top",y=1,orientation="h"),
-        font=dict(size=self.size,family=self.family_font,color=self.color_plot),hovermode="x unified")
+        font=dict(size=self.size,family=self.family_font,color=self.color_plot),hovermode="closest")
       #  hovermode="x unified"
         

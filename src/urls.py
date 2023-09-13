@@ -7,6 +7,6 @@ urlpatterns = [
   
 
     path("",views.view_map_world,name="map_world"),
-    path("dashboard/map/france/",views.view_map_france,name="map_france"),
+
     
 ]

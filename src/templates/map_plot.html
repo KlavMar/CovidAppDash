@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
 {%load plotly_dash%}
-<div class=" lg:col-span-12  md:col-span-12">   {%plotly_app name="map_plot" ratio=1%}
-</div>
+{%plotly_app name="map_plot" ratio=1%}
  
 {% endblock %}
